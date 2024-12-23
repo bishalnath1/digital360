@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Digitalacademy360webinar</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <!-- hero section -->
+    
+        <div class="herosection">
+            <div class="hero-content">
+                <div class="mainlogo"><img src="assets/Group 427318553.svg" alt=""></div>
+                <div class="hero-content-col1">
+                    <h1>Learn How to Design on Figma & Build Your First UX Design Project</h1>
+                    <p>Learn the essentials of Figma step-by-step and apply your skills to create a portfolio-worthy
+                        project.</p>
+                </div>
+                <div class="hero-content-col2">
+                    <img src="assets/Frame 427319495.svg" alt="cmplogos">
+                </div>
+            </div>
+            <div class="herosection-form">
+                <div class="formcontainer">
+                    <h2>Book your slot</h2>
+                    <form action="submit.php" method="post">
+                        <input type="text" placeholder="Full Name*" name="full_name" required>
+                        <input type="email" placeholder="Email*" name="email" required>
+                        <div class="telbox">
+                            <select name="country_code" required>
+                                <option value="+91">+91 IN</option>
+                                <option value="+1">+1 US</option>
+                                <option value="+44">+44 UK</option>
+                            </select>
+                            <input type="tel" placeholder="Mobile Number*" name="mobile_number" required>
+                        </div>
+                        <select name="work_experience" required>
+                            <option value="" disabled selected>Work Experience</option>
+                            <option value="0-1">0-1 years</option>
+                            <option value="1-3">1-3 years</option>
+                            <option value="3-5">3-5 years</option>
+                            <option value="5+">5+ years</option>
+                        </select>
+                        <label>
+                            <input type="checkbox" name="consent" required>
+                            I authorize Digital Academy 360 and its associates to contact me with updates &
+                            notifications
+                            via email, SMS, WhatsApp, and voice call. This consent will override any registration for
+                            DNC/NDNC.
+                        </label>
+                    </form>
+                    <button type="submit" class="submit-btn">SUBMIT</button>
+                </div>
+            </div>
+        </div>
+
+    <!-- video section -->
+    <div class="wrapvideocontainer">
+        <img class="wcp1" src="assets/searchbarlogo.svg" alt="">
+        <img class="wcp2" src="assets/starlogo.svg" alt="">
+        <div class="video-container">
+            <img src="assets/videoimg.svg" alt="">
+        </div>
+        <img class="wcp3" src="assets/documentlogo.svg" alt="">
+        <img class="wcp4" src="assets/fileslogo.svg" alt="">
+    </div>
+    <div class="video-text">
+        <p>Join this hands-on webinar to learn how to set up, manage, and optimize Google Ads campaigns to drive traffic
+            and grow your business. Perfect for beginners looking to dive into paid advertising!</p>
+    </div>
+    <!-- fixed popup div -->
+    <div style="display: none;" id="event-info" class="event-info">
+        <div class="event-details">
+            <span>Getting Started with Google Ads: <br> A Beginner's Guide</span>
+            <span><strong>Event Date:</strong><br> 11 January, 2025</span>
+            <span><strong>Duration:</strong> <br> 45min</span>
+        </div>
+        <button class="join-webinar-btn">Join Webinar</button>
+    </div>
+    <!-- speaker section -->
+    <div class="mobilespeakerimage"><img src="assets/mobilespeakerimage.svg" alt=""></div>
+    <div class="speakercontainer">
+        <div class="speakerimage"><img src="assets/speakerimage.svg" alt=""></div>
+        <div class="speaker-stats">
+            <div class="ss">
+                <p>Speaker</p>
+                <h3>Prithvi Kumar</h3>
+            </div>
+            <div class="ss">
+                <p>Event Date</p>
+                <h3>11 January, 2025</h3>
+            </div>
+            <div class="ss">
+                <p>Duration</p>
+                <h3>45min</h3>
+            </div>
+            <div class="ss">
+                <p>Prize</p>
+                <h3>&#8377;2500</h3>
+            </div>
+        </div>
+        <img class="wcp5" src="assets/kitelogo.svg" alt="">
+    </div>
+    <div class="speaker-description">
+        <div class="wrap-sd">
+            <img src="assets/sd-arrowdown.svg" alt="">
+            <h2>Prithiv Kumar</h2>
+            <p class="designation">Senior Product Designer <br> 8+ years of experience <br> Former UX/UI Consultant at
+                Amazon</p>
+            <div class="sd-message">
+                <p>Hey Everyone!,<br><br>I’m Prithiv, and I can’t wait to help you explore the world of UX design and
+                    tap into
+                    your potential.<br><br> Over the past 8 years, I’ve journeyed through various roles, from shaping
+                    user
+                    experiences at Amazon to leading design projects for multiple brands, and along the way, I’ve
+                    conducted 100+ masterclasses for aspiring UX Designers. <br><br> Now, here’s the truth:
+                    transitioning into
+                    UX can feel overwhelming. I’ve been there, and I know how one can feel overwhelmed with the tools
+                    especially Figma, But that’s why I’m here—to guide you with practical advice and a few design
+                    secrets I’ve picked up.<br><br>Now, I’m here to help you navigate the exciting world of AI in
+                    design,
+                    sharing practical skills and insights along the way.<br><br>If you’re ready to start your UX design
+                    journey, I’m here to help you get there.<br><br>Can’t wait to see you in the workshop!</p>
+            </div>
+        </div>
+    </div>
+    <!-- webiner section -->
+    <div class="webinar-container">
+        <h2>Who should take up this programme?</h2>
+        <p class="webinar-description">This webinar is ideal for:</p>
+        <div class="cards-container">
+            <div class="card">
+                <div class="card-icon">
+                    <img src="assets/pic1.svg" alt="Entrepreneur Icon">
+                </div>
+                <div class="cardinfo">
+                    <h3>Entrepreneurs</h3>
+                    <p>wanting to grow their online business</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img src="assets/pic2.svg" alt="Digital Marketers Icon">
+                </div>
+                <div class="cardinfo">
+                    <h3>Digital marketers</h3>
+                    <p>looking to enhance their PPC strategies</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img src="assets/pic3.svg" alt="Small Business Owners Icon">
+                </div>
+                <div class="cardinfo">
+                    <h3>Small business owners</h3>
+                    <p>who want to start using paid advertising</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img src="assets/pic4.svg" alt="Marketing Students Icon">
+                </div>
+                <div class="cardinfo">
+                    <h3>Marketing students</h3>
+                    <p>eager to learn about Google Ads</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img src="assets/pic5.svg" alt="Anyone Interested Icon">
+                </div>
+                <div class="cardinfo">
+                    <h3>Anyone interested</h3>
+                    <p>in mastering Google Ads to boost online presence</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- webiner detail section -->
+    <div class="webinar-details-container">
+        <h2>All you need to know before you join</h2>
+        <div class="details-container">
+            <div class="detail-card-row1">
+                <div class="detail-card-col1">
+                    <div class="detail-card">
+                        <img src="assets/calenderpic.svg" alt="Calendar Icon">
+                        <div class="card-content">
+                            <h3>Webinar Date</h3>
+                            <p>11 January, 2025</p>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <img src="assets/hourglasspic.svg" alt="Duration Icon">
+                        <div class="card-content">
+                            <h3>Duration</h3>
+                            <p>45 min</p>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <img src="assets/clockpic.svg" alt="Time Icon">
+                        <div class="card-content">
+                            <h3>Time</h3>
+                            <p>6:00 pm</p>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <img src="assets/ticketpic.svg" alt="Price Icon">
+                        <div class="card-content">
+                            <h3>Price</h3>
+                            <p>₹2,500</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detail-card-row2">
+                <div class="detail-card-col2">
+                    <div class="detail-card-col1">
+                        <div class="detail-card">
+                            <img src="assets/QApic.svg" alt="Q&A Icon">
+                            <div class="card-content">
+                                <h3>Live Interactive Q&A Session</h3>
+                                <p>Get answers to your questions directly from the expert!</p>
+                            </div>
+                        </div>
+                        <div class="detail-card">
+                            <img src="assets/smilypic.svg" alt="Prerequisites Icon">
+                            <div class="card-content">
+                                <h3>Prerequisites</h3>
+                                <p>No prior Google Ads experience required—perfect for beginners.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail-card-col1">
+                        <div class="detail-card">
+                            <img src="assets/bonuspic.svg" alt="Bonus Icon">
+                            <div class="card-content">
+                                <h3>Bonus Materials</h3>
+                                <p>Gain access to exclusive resources and downloadable guides.</p>
+                            </div>
+                        </div>
+                        <div class="detail-card">
+                            <img src="assets/lifetimepic.svg" alt="Lifetime Access Icon">
+                            <div class="card-content">
+                                <h3>Lifetime Access</h3>
+                                <p>Get a recording of the session to revisit anytime.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="detail-card-col3">
+                    <div class="detail-card2">
+                        <img src="assets/rupeepic.svg" alt="Money-Back Icon">
+                        <div class="card-content">
+                            <h3>Money-Back Guarantee</h3>
+                            <p>If you're not satisfied, <br> we offer a <br> 30-day refund.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="detail-card-row3">
+                <div class="detail-card">
+                    <img src="assets/certificatepic.svg" alt="Certificate Icon">
+                    <div class="card-content">
+                        <h3>Certification</h3>
+                        <p>Upon completing the webinar, you will receive a <strong>CERTIFICATE OF
+                                PARTICIPATION</strong>,
+                            which will validate your newly acquired Google Ads skills and enhance your digital marketing
+                            portfolio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- webiner detail section mobile -->
+    <div style="display: none;" class="webinar-details-container-mobile">
+        <div class="header">All you need to know before you join</div>
+
+        <div class="row">
+            <div style="width: 61%;" class="info-box">
+                <img class="info-icon" src="assets/calenderpic.svg" alt="Webinar Date">
+                <div class="info-text">
+                    <span class="title">Webinar Date</span>
+                    <span class="desc">11 January, 2025</span>
+                </div>
+            </div>
+
+            <div style="width: 33%;" class="info-box">
+                <img class="info-icon" src="assets/hourglasspic.svg" alt="Duration">
+                <div class="info-text">
+                    <span class="title">Duration</span>
+                    <span class="desc">45 min</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div style="width: 45%;" class="info-box">
+                <img class="info-icon" src="assets/clockpic.svg" alt="Time">
+                <div class="info-text">
+                    <span class="title">Time</span>
+                    <span class="desc">6:00 PM</span>
+                </div>
+            </div>
+            <div style="width: 45%;" class="info-box">
+                <img class="info-icon" src="assets/ticketpic.svg" alt="Price">
+                <div class="info-text">
+                    <span class="title">Price</span>
+                    <span class="desc">₹2,500</span>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="single-info">
+            <div class="info-box">
+                <img class="info-icon" src="assets/QApic.svg" alt="Live Q&A">
+                <div class="info-text">
+                    <span class="title">Live Interactive Q&A Session</span>
+                    <span class="desc">Get answers to your questions directly from the expert!</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="single-info">
+            <div class="info-box">
+                <img class="info-icon" src="assets/smilypic.svg" alt="Prerequisites">
+                <div class="info-text">
+                    <span class="title">Prerequisites</span>
+                    <span class="desc">No prior Google Ads experience required—perfect for beginners.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="single-info">
+            <div class="info-box">
+                <img class="info-icon" src="assets/bonuspic.svg" alt="Bonus Materials">
+                <div class="info-text">
+                    <span class="title">Bonus Materials</span>
+                    <span class="desc">Gain access to exclusive resources and downloadable guides.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="single-info">
+            <div class="info-box">
+                <img class="info-icon" src="assets/lifetimepic.svg" alt="Lifetime Access">
+                <div class="info-text">
+                    <span class="title">Lifetime Access</span>
+                    <span class="desc">Get a recording of the session to revisit anytime.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="single-info">
+            <div class="info-box">
+                <img class="info-icon" src="assets/rupeepic.svg" alt="Money-Back Guarantee">
+                <div class="info-text">
+                    <span class="title">Money-Back Guarantee</span>
+                    <span class="desc">If you’re not satisfied, we offer a 30-day refund.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="single-info">
+            <div class="info-box">
+                <img style="display: flex; align-items: flex-start;" class="info-icon" src="assets/certificatepic.svg"
+                    alt="Certification">
+                <div class="info-text">
+                    <span class="title">Certification</span>
+                    <span class="desc">Upon completing the webinar, you will receive a <strong>CERTIFICATE OF
+                            PARTICIPATION</strong>, which will validate your newly
+                        acquired Google Ads skills and enhance your digital marketing portfolio.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- accordian section -->
+    <h2 style="display: none;" class="accordian-header1">What will I learn?</h2>
+    <section style="display: none;" class="accordion">
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="topic-label">Topics 1</div>
+                <div class="topic-title">Introduction to Google Ads</div>
+                <button class="accordion-toggle">
+                    <span><img src="assets/plusaccordian.svg" alt=""></span>
+                </button>
+            </div>
+            <div class="accordion-content open">
+                <ul>
+                    <li>What Google Ads is and how it works</li>
+                    <li>Understanding Google Ads interface and dashboard</li>
+                    <li>How to set up your Google Ads account</li>
+                    <li>Choosing the right ad campaign type for your business</li>
+                    <li>The fundamentals of budgeting and bidding</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Topic 2 -->
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="topic-label">Topics 2</div>
+                <div class="topic-title">Crafting Effective Campaigns</div>
+                <button class="accordion-toggle">
+                    <span><img src="assets/plusaccordian.svg" alt=""></span>
+                </button>
+            </div>
+            <div class="accordion-content">
+                <ul>
+                    <li>Content for crafting effective campaigns goes here.</li>
+                    <li>How to define your campaign objectives</li>
+                    <li>Researching and selecting the right keywords</li>
+                    <li>Writing compelling ad copy that converts</li>
+                    <li>Understanding ad formats and extensions</li>
+                    <li>Tracking and analyzing campaign performance</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Topic 3 -->
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="topic-label">Topics 3</div>
+                <div class="topic-title">Advanced Google Ads Techniques</div>
+                <button class="accordion-toggle">
+                    <span><img src="assets/plusaccordian.svg" alt=""></span>
+                </button>
+            </div>
+            <div class="accordion-content">
+                <ul>
+                    <li>Content for advanced Google Ads techniques goes here.</li>
+                    <li>Optimizing campaigns using A/B testing</li>
+                    <li>Leveraging remarketing strategies to re-engage users</li>
+                    <li>Using audience targeting for better reach</li>
+                    <li>Understanding and using Google Ads scripts</li>
+                    <li>Strategies for scaling successful campaigns</li>
+                </ul>
+            </div>
+        </div>
+        <div style="margin-bottom: 100px;" class="accordion-item">
+            <div class="accordion-header">
+                <!-- to make the last curve -->
+            </div>
+        </div>
+    </section>
+    <!-- Bonus container section -->
+    <h2 style="display: none;" class="Bonus-header1">A change to unlock all the bonuses</h2>
+    <div style="display: none;" class="bonus-container">
+        <div class="bonus-card bonus-1">
+            <h3>Bonus 1</h3>
+            <p>Google Ads Campaign Checklist (Valued at $X)</p>
+        </div>
+        <div class="bonus-card bonus-2">
+            <h3>Bonus 2</h3>
+            <p>Access to the Google Ads Strategy Guide</p>
+        </div>
+        <div class="bonus-card bonus-3">
+            <h3>Bonus 3</h3>
+            <p>Recorded Webinar Session + Q&A for Lifetime Access</p>
+        </div>
+        <div class="bonus-card bonus-4">
+            <h3>Bonus 4</h3>
+            <p>Exclusive Ad Copy Templates to Boost Your Campaigns</p>
+        </div>
+    </div>
+    <section style="display: none;" class="testimonials-section">
+        <h2 class="testimonials-heading">Testimonials</h2>
+
+        <!-- Main Testimonials Wrapper -->
+        <div id="testimonials-container" class="testimonials-wrapper">
+            <div class="testimonial-card">
+                <!-- Image Part -->
+                <div class="testimonial-image-wrapper">
+                    <img src="assets/testimonials1.svg" alt="Sonal Lal" class="testimonial-image">
+                </div>
+
+                <!-- Text Part -->
+                <div class="testimonial-text-wrapper">
+                    <div class="testimonial-name-wrapper">
+                        <h3 class="testimonial-name">Sonal Lal</h3>
+                        <img src="assets/testimonial-quote.svg" alt="">
+                    </div>
+                    <p class="testimonial-text">
+                        It's a good place to learn if you are starting out in Digital Marketing field. Trainers are
+                        well-experienced and if you are diligent, they will help you in every way possible.
+                    </p>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <!-- Image Part -->
+                <div class="testimonial-image-wrapper">
+                    <img src="assets/testimonials2.svg" alt="Sonal Lal" class="testimonial-image">
+                </div>
+
+                <!-- Text Part -->
+                <div class="testimonial-text-wrapper">
+                    <div class="testimonial-name-wrapper">
+                        <h3 class="testimonial-name">Sonal Lal</h3>
+                        <img src="assets/testimonial-quote.svg" alt="">
+                    </div>
+                    <p class="testimonial-text">
+                        It's a good place to learn if you are starting out in Digital Marketing field. Trainers are
+                        well-experienced and if you are diligent, they will help you in every way possible.
+                    </p>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <!-- Image Part -->
+                <div class="testimonial-image-wrapper">
+                    <img src="assets/testimonials3.svg" alt="Sonal Lal" class="testimonial-image">
+                </div>
+
+                <!-- Text Part -->
+                <div class="testimonial-text-wrapper">
+                    <div class="testimonial-name-wrapper">
+                        <h3 class="testimonial-name">Sonal Lal</h3>
+                        <img src="assets/testimonial-quote.svg" alt="">
+                    </div>
+                    <p class="testimonial-text">
+                        It's a good place to learn if you are starting out in Digital Marketing field. Trainers are
+                        well-experienced and if you are diligent, they will help you in every way possible.
+                    </p>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <!-- Image Part -->
+                <div class="testimonial-image-wrapper">
+                    <img src="assets/testimonials1.svg" alt="Sonal Lal" class="testimonial-image">
+                </div>
+
+                <!-- Text Part -->
+                <div class="testimonial-text-wrapper">
+                    <div class="testimonial-name-wrapper">
+                        <h3 class="testimonial-name">Sonal Lal</h3>
+                        <img src="assets/testimonial-quote.svg" alt="">
+                    </div>
+                    <p class="testimonial-text">
+                        It's a good place to learn if you are starting out in Digital Marketing field. Trainers are
+                        well-experienced and if you are diligent, they will help you in every way possible.
+                    </p>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <!-- Image Part -->
+                <div class="testimonial-image-wrapper">
+                    <img src="assets/testimonials2.svg" alt="Sonal Lal" class="testimonial-image">
+                </div>
+
+                <!-- Text Part -->
+                <div class="testimonial-text-wrapper">
+                    <div class="testimonial-name-wrapper">
+                        <h3 class="testimonial-name">Sonal Lal</h3>
+                        <img src="assets/testimonial-quote.svg" alt="">
+                    </div>
+                    <p class="testimonial-text">
+                        It's a good place to learn if you are starting out in Digital Marketing field. Trainers are
+                        well-experienced and if you are diligent, they will help you in every way possible.
+                    </p>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <!-- Image Part -->
+                <div class="testimonial-image-wrapper">
+                    <img src="assets/testimonials3.svg" alt="Sonal Lal" class="testimonial-image">
+                </div>
+
+                <!-- Text Part -->
+                <div class="testimonial-text-wrapper">
+                    <div class="testimonial-name-wrapper">
+                        <h3 class="testimonial-name">Sonal Lal</h3>
+                        <img src="assets/testimonial-quote.svg" alt="">
+                    </div>
+                    <p class="testimonial-text">
+                        It's a good place to learn if you are starting out in Digital Marketing field. Trainers are
+                        well-experienced and if you are diligent, they will help you in every way possible.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider Progress Bar -->
+        <div class="slider-line">
+            <div id="slider-progress" class="slider-progress"></div>
+        </div>
+
+        <!-- mobile Testimonials Wrapper -->
+        <div class="mobile-testimonials-wrapper">
+            <div class="testimonial-card">
+                <div class="testimonial-name-wrapper">
+                    <img src="assets/testimonials1.svg" alt="Sonal Lal" class="testimonial-image">
+                    <h3 class="testimonial-name">Sonal Lal</h3>
+                    <img src="assets/testimonial-quote.svg" alt="">
+                </div>
+                <p class="testimonial-text">
+                    It's a good place to learn if you are starting out in Digital Marketing field. Trainers are
+                    well-experienced and if you are diligent, they will help you in every way possible.
+                </p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-name-wrapper">
+                    <img src="assets/testimonials1.svg" alt="Sonal Lal" class="testimonial-image">
+                    <h3 class="testimonial-name">Sonal Lal</h3>
+                    <img src="assets/testimonial-quote.svg" alt="">
+                </div>
+                <p class="testimonial-text">
+                    It's a good place to learn if you are starting out in Digital Marketing field. Trainers are
+                    well-experienced and if you are diligent, they will help you in every way possible.
+                </p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-name-wrapper">
+                    <img src="assets/testimonials1.svg" alt="Sonal Lal" class="testimonial-image">
+                    <h3 class="testimonial-name">Sonal Lal</h3>
+                    <img src="assets/testimonial-quote.svg" alt="">
+                </div>
+                <p class="testimonial-text">
+                    It's a good place to learn if you are starting out in Digital Marketing field. Trainers are
+                    well-experienced and if you are diligent, they will help you in every way possible.
+                </p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-name-wrapper">
+                    <img src="assets/testimonials1.svg" alt="Sonal Lal" class="testimonial-image">
+                    <h3 class="testimonial-name">Sonal Lal</h3>
+                    <img src="assets/testimonial-quote.svg" alt="">
+                </div>
+                <p class="testimonial-text">
+                    It's a good place to learn if you are starting out in Digital Marketing field. Trainers are
+                    well-experienced and if you are diligent, they will help you in every way possible.
+                </p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-name-wrapper">
+                    <img src="assets/testimonials1.svg" alt="Sonal Lal" class="testimonial-image">
+                    <h3 class="testimonial-name">Sonal Lal</h3>
+                    <img src="assets/testimonial-quote.svg" alt="">
+                </div>
+                <p class="testimonial-text">
+                    It's a good place to learn if you are starting out in Digital Marketing field. Trainers are
+                    well-experienced and if you are diligent, they will help you in every way possible.
+                </p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-name-wrapper">
+                    <img src="assets/testimonials1.svg" alt="Sonal Lal" class="testimonial-image">
+                    <h3 class="testimonial-name">Sonal Lal</h3>
+                    <img src="assets/testimonial-quote.svg" alt="">
+                </div>
+                <p class="testimonial-text">
+                    It's a good place to learn if you are starting out in Digital Marketing field. Trainers are
+                    well-experienced and if you are diligent, they will help you in every way possible.
+                </p>
+            </div>
+            <button class="loadmore" id="loadmoretestimonials">Load more</button>
+
+        </div>
+    </section>
+
+    <!-- faq section -->
+    <section style="display: none;" class="faq-section">
+        <div class="faq-container">
+            <div class="faq-col1">
+                <h2 class="faq-title">FAQ</h2>
+            </div>
+            <div class="faq-col2">
+                <div class="faq-item">
+                    <h3 class="faq-question">Do I need prior experience with Google Ads?</h3>
+                    <p class="faq-answer">No! This webinar is designed for beginners, and no prior knowledge is
+                        required.
+                    </p>
+                    <div class="faq-divider"></div>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Will I get a certificate for attending?</h3>
+                    <p class="faq-answer">Yes, all attendees will receive a Certificate of Participation upon
+                        completion.
+                    </p>
+                    <div class="faq-divider"></div>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Is the session recorded?</h3>
+                    <p class="faq-answer">Yes, you will receive lifetime access to the webinar recording so you can
+                        watch it
+                        at your own pace.</p>
+                    <div class="faq-divider"></div>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Can I ask questions during the webinar?</h3>
+                    <p class="faq-answer">Absolutely! There will be a Live Q&A session at the end of the webinar where
+                        you
+                        can ask questions.</p>
+                    <div class="faq-divider"></div>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">What if I can’t attend the live session?</h3>
+                    <p class="faq-answer">No worries! You’ll get access to the recording after the live event, so you
+                        can
+                        watch it anytime.</p>
+                    <div class="faq-divider"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer style="display: none;" class="footersection">
+        <div class="footer-container">
+            <div class="companylogo">
+                <img src="assets/footer-cmp-logo.svg" alt="">
+            </div>
+            <div class="footer-text">
+                <p>© 2022 Digitalacademy360 Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js" async defer></script>
+
+</body>
+
+</html>
